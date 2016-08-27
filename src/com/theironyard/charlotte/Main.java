@@ -44,9 +44,7 @@ public class Main {
     }
 
     public static boolean parrotTrouble(boolean talking, int hour) {
-
         return (talking && (hour < 7 || hour > 20));
-
     }
 
     public static boolean makes10(int a, int b) {
@@ -97,5 +95,4 @@ public class Main {
             max = c;
         } return max;
     }
-
 }
